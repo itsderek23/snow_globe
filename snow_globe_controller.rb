@@ -5,7 +5,7 @@ puts "Is it snowing? #{result}"
 
 pin = PiPiper::Pin.new(:pin => 17, :direction => :out)
 
-if result == 'true'
+if result.include?('true')
 	pin.on
 else
 	pin.off
