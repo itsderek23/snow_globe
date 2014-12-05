@@ -1,6 +1,6 @@
 require 'pi_piper'
 
-result = `./is_it_snowing`
+result = `ruby is_it_snowing.rb`
 
 pin = PiPiper::Pin.new(:pin => 17, :direction => :out)
 
