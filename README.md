@@ -30,3 +30,8 @@ To see the LED turn on:
 
 `$ sudo DATE="2014-11-23-14" ruby snow_globe_controller.rb`
 
+## Constant Check
+
+This will check every 5 minutes:
+
+`$ sudo ruby snowd.rb`
