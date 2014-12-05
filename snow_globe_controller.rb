@@ -7,6 +7,8 @@ pin = PiPiper::Pin.new(:pin => 17, :direction => :out)
 
 if result.include?('true')
 	pin.on
+	puts "on"
 else
 	pin.off
+	puts "off"
 end
